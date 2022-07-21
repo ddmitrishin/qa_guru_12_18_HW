@@ -28,7 +28,7 @@ public class TestBase {
         userLogin = config.userLogin();
         userPassword = config.userPassword();
         authCookie = config.authCookie();
-        selenoidUrl = System.getProperty("selenoidUrl");
+        selenoidUrl = System.getProperty("selenoidURL");
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
